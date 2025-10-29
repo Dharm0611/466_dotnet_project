@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Quiz Platform</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎯 Online Quiz Platform</h1>
+    <div id="login">
+      <input id="username" placeholder="Enter your name" />
+      <button id="startBtn">Start Quiz</button>
+    </div>
+    <div id="quiz" class="hidden">
+      <div id="progress">
+        <div id="progressBar"></div>
+        <span id="progressText">Question 1 of 10</span>
+      </div>
+      <div id="timer">⏰ Time left: <span id="time">--</span>s</div>
+      <div id="questionArea"></div>
+      <button id="nextBtn">Next Question</button>
+    </div>
+    <div id="result" class="hidden"></div>
+    <h2>🏆 Leaderboard</h2>
+    <ol id="leaderboard"></ol>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
