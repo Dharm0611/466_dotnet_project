@@ -1,4 +1,4 @@
-# 🎯 Online BGMI Quiz Platform
+# 🎯 Online MATHS Quiz Platform
 
 A modern, full-stack web application for taking online quizzes with real-time scoring and leaderboard functionality.
 
